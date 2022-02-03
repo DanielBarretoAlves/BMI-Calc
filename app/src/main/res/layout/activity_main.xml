@@ -118,6 +118,8 @@
                 android:id="@+id/ageVal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="32sp"
+                android:textStyle="bold"
                 android:textAlignment="center"
                 android:text="0" />
 
@@ -192,6 +194,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="32sp"
                 android:textStyle="bold"
+                android:textAlignment="center"
                 android:text="0" />
 
             <LinearLayout
