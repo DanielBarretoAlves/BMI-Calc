@@ -119,11 +119,11 @@
                 android:id="@+id/ageVal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="32sp"
-                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:text="50"
                 android:textAlignment="center"
-                android:text="0"
-                android:gravity="center_horizontal" />
+                android:textSize="32sp"
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -159,8 +159,9 @@
                     android:layout_marginEnd="5dp"
                     android:layout_marginRight="5dp"
                     android:layout_marginBottom="5dp"
-                    android:backgroundTint="@color/mainDark"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/mainDark"
+                    android:onClick="test"
                     android:text="+"
                     app:cornerRadius="80dp" />
             </LinearLayout>
